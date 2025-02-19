@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BlankFragment2">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="166dp"
+        android:layout_height="158dp"
+        android:layout_marginLeft="180dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="account name: example "
+        android:textColor="#FF0000"
+
+
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="184dp"
+        android:layout_height="174dp"
+
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:text="to change your profile click her"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="409dp"
+        android:layout_height="102dp"
+
+        android:layout_marginTop="350dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="413dp"
+        android:layout_height="48dp"
+        android:fontFamily="sans-serif-black"
+        android:text="choose your playlist"
+        android:textColor="#FF0000"
+        android:textColorHint="#FBF5F5"
+        android:textSize="34sp"
+        android:layout_marginTop="300dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="500dp"
+            android:checked="true"
+            android:text="dark mood off"
+            android:textColor="#FF0000"
+
+            ></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="dark mood on"
+            android:textColor="#FF0000"></RadioButton>
+
+    </RadioGroup>
+
+
+</FrameLayout>

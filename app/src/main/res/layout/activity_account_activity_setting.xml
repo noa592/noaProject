@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#850303"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="182dp"
+        android:layout_height="122dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="account name: example "
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:text="to change your profile click her"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="413dp"
+        android:layout_height="48dp"
+        android:fontFamily="sans-serif-black"
+        android:text="choose your playlist"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FBF5F5"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
